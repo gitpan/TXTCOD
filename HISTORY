@@ -1,0 +1,96 @@
+2003/06/09: (Begin and) end of the creation of TXTCOD sSAC2.4, v4.7.1. This version is fully translated in
+			english, except this history file :)
+
+29/05/2003: (Début et) fin de la création de TXTCOD sSAC2.4, v4.7.
+			Le système SAC2.4 réintegre la variable P et a quelques ameliorations au niveau de la vitesse
+			d'encryptage et de decodage. Le module est maintenant livré en distibution perl !
+			Le script inclut une aide POD
+
+28/05/2003: (Début et) fin de la création de TXTCOD sSAC2.3, v4.6.
+			Le système SAC2.3 peut maintenant transcoder TOUS les fichiers !!! M’me les fichiers binaires !
+			La coordination du module est améliorée. La variable d'algorithme P a été supprimée
+			Le système d'algorithmes refonctionne
+
+27/05/2003: (Début et) fin de la création de TXTCOD sSAC2.2, v4.5. Le script est donné sous forme de module !
+			le système SAC 2.2 peut maintenant
+			convertir TOUS les caractères et quelques petites modifications dans les espaces (qui
+			étaient des "/" et qui sont des " " maintenant). Trois scripts sont maintenant
+			livrés avec le module : un script textuel, un script Perl/Tk et un script CGI 
+
+1/04/2002 : Début (et fin) de la création de TXTCOD sSAC2.1, v4.1.5a0 et 4.1, respectivement perl/tk et perl.
+			Désormais les versions x.x.5 seront les versions Tk... J'y ai rajouté, dans l'algorithme, un petit
+			oubli: les places de lettre dans le mot, la phrase, le texte... J'ai retouché l'aide en mettant les opérateurs
+			Mais je ne suis toujours pas allé chez Martin... Ca ne saurait tarder.
+
+31/03/2002: Début de la création de txtcod sSAC2 v4. Cette version est la version Tk de TXTCOD. Ceci est une alpha 0
+			car en fait je n'ai pas pu la tester. Je verrai cela demain avec Martin. Cette version corrige également
+			quelques légers problèmes de commentation (au début du script)
+
+31/03/2002: (Début et) Fin de la création de txtcod sSAC2 v3.
+			Et maintenant, on peut programmer son algo! En fait c'était pas compliqué... Et puis j'en ai
+			profité pour refaire l'aide.
+
+31/03/2002: (Début et) Fin de la création de txtcod sSAC1f1 v2.1.
+			Et voilà... Maintenant il n'y a plus de créateur de fichiers... J'en ai aussi profité pour intégrer
+			l'aide.
+
+31/03/2002: (Début et) Fin de la création de txtcod sSAC1f1 v2f1. 
+			Grand renouveau!! me revoici en 2002... J'ai fixé le sSAC1 (problèmes d'infinis)
+			et le script a été revu (problèmes de dates).
+			le créateur de fichiers .cod créé le fichier tout seul (v1.1)
+
+5/06/2001 : (Début et) Fin de la création de txtcod sSAC1 v2.0. 
+			Le nouvel algorithme puissant SAC (Système Alternatif de Codage) permet de changer de système de codage selon
+			le jour, l'année, le mois, etc...
+			Inclusion d'un utilitaire créateur de fichiers .cod : codrand v1.0
+			
+5/06/2001 : (Début et) Fin de la création de txtcod sSECTES4 v1.5. Ce système est une évolution du système SECTES 3 et peut
+			encrypter les chiffres. Amélioration de quelques problèmes (le programme ne s'arrête plus aux erreurs et le 
+			fichier de destination se ferme à la fin du codage/décodage)
+
+5/06/2001 : (Début et) Fin de la création de txtcod sSECTES3 1.5b2. Ce programme est maintenant unique 
+			(suppression de txt2cod et cod2txt). Des problèmes d'antislashs et de ô, ö, ò sont réglés.
+
+12/04/2001: (Début et) Fin de la création de txtcod sSECTES3 1.5b1. Ce système contient la transformation 
+			des caractères spéciaux et des nombres en toutes lettres (ex: 32 -> trois-deux-)
+
+10/04/2001: (Début et) Fin de la création de txt2cod 1.0b3, cod2txt 1.0b3 et codtxt sSECTES2f1 1.0b3. 
+			Toutes contiennent maintenant des commentaires partout et l'interface est meilleure et plus 
+			explicative. codtxt SECTES2f1 1.0b3 regroupe les deux scripts.
+			
+10/04/2001: (Début et) Fin de la création de txt2cod 1.0b2 et cod2txt 1.0b2. Les deux scripts peuvent maintenant
+			faire l'altertnative entre l'entrée et la sortie par l'écran ou par fichier.
+			Quelques problèmes fixés.
+			
+9/04/2001 : (Début et) Fin de la création de txt2cod 1.0b1 et cod2txt 1.0b1. Nouvelles caractéristiques comprenant:
+			- Pour cod2txt et txt2cod: la transformation d'entrée et de sortie par l'écran par les fichiers.
+			- Fixage de cod2txt (problèmes de nombres à virgule) (SECTES 2 fixé 1)
+			
+6/04/2001 :	(Début et) Fin de la création de txt2cod 1.0a2 et cod2txt 1.0a2. Nouvel algorithme puissant (SECTES 2):
+                           MAJUSCULES TRANSFORMEES EN MINUSCULES
+                                ESPACES TRANSFORMES EN SLASHS
+                                  TRANSFORMATION EN CHIFFRES
+								  
+                                AUGMENTATION DE CINQ UNITES
+                   MULTIPLICATION DE 96 * LA PLACE DE LA LETTRE DANS LE MOT
+				                        EXPOSANT 3
+								   MUTIPLICATION PAR 6
+				   ADDITION DE 25 * LA PLACE DU MOT DANS LA PHRASE
+				                   SOUSTRACTION DE 63
+								  MUTIPLICATION PAR 3
+			  SOUSTRACTION PAR 33 * LA PLACE DE LA PHRASE DANS LE TEXTE
+			                            EXPOSANT 2
+								   SOUSTRACTION DE 586
+
+
+5/04/2001 : 	(Début et) Fin de la création de txt2cod 1.0a1. Algorithme SECTES 1 (Système d' Encryptage Codant des 
+			Textes Ecrits Secrètement):
+                           MAJUSCULES TRANSFORMEES EN MINUSCULES
+                                ESPACES TRANSFORMES EN SLASHS
+                                  TRANSFORMATION EN CHIFFRES
+
+                                  AUGMENTATION DE CINQ UNITES
+                         MULTIPLICATION PAR LA PLACE DE LA LETTRE DANS LE MOT
+                              DIMINUTION DE SOIXANTE-TREIZE UNITES
+							  
+			Entrée et sortie du texte uniquement à l'écran.
