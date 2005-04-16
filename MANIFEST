@@ -5,3 +5,4 @@ Makefile.PL
 README
 TODO
 lib/TXTCOD.pm
+t/use.t
